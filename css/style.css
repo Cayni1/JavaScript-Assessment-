@@ -1,0 +1,58 @@
+/* Style for the main quiz container */
+#quiz {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Style for the question */
+  #question {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for answer choices */
+  #choices div {
+    background-color: #e5e5e5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect on answer choices */
+  #choices div:hover {
+    background-color: #ddd;
+  }
+  
+  /* Style for the submit button */
+  #submit {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect on the submit button */
+  #submit:hover {
+    background-color: #0056a4;
+  }
+  
+  /* Style for the results container */
+  #results {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    display: none;
+  }
+  
